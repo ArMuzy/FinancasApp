@@ -1,20 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\coti_csharp_sqs\\FinancasApp\\FinancasApp.Data\\FinancasApp.Data.csproj": {}
+    "C:\\FinancasApp\\FinancasApp.Data\\FinancasApp.Data.csproj": {}
   },
   "projects": {
-    "C:\\coti_csharp_sqs\\FinancasApp\\FinancasApp.Data\\FinancasApp.Data.csproj": {
+    "C:\\FinancasApp\\FinancasApp.Data\\FinancasApp.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\coti_csharp_sqs\\FinancasApp\\FinancasApp.Data\\FinancasApp.Data.csproj",
+        "projectUniqueName": "C:\\FinancasApp\\FinancasApp.Data\\FinancasApp.Data.csproj",
         "projectName": "FinancasApp.Data",
-        "projectPath": "C:\\coti_csharp_sqs\\FinancasApp\\FinancasApp.Data\\FinancasApp.Data.csproj",
-        "packagesPath": "C:\\Users\\Coti - 11\\.nuget\\packages\\",
-        "outputPath": "C:\\coti_csharp_sqs\\FinancasApp\\FinancasApp.Data\\obj\\",
+        "projectPath": "C:\\FinancasApp\\FinancasApp.Data\\FinancasApp.Data.csproj",
+        "packagesPath": "C:\\Users\\leila\\.nuget\\packages\\",
+        "outputPath": "C:\\FinancasApp\\FinancasApp.Data\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Coti - 11\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\leila\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +27,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -77,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

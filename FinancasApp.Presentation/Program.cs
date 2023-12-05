@@ -16,13 +16,8 @@ app.UseRouting();
 
 app.UseAuthorization();
 
-/*
- Definindo o padrão de navegação do projeto /Controller/View
- é a página inicial que será aberta ao acessar o sistema
- */
 app.MapControllerRoute(
-    name: "default",
+    name: "default", //configuração da página inicial
     pattern: "{controller=Account}/{action=Login}/{id?}");
-//  pattern: "{controller=coloco a pasta aqui}/{action=coloco a página aqui}/{id?}");
 
 app.Run();

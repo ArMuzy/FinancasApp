@@ -1,49 +1,38 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aplicativo de controle de finanças</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- folha de estilos do bootstrap -->
-    <link href="/css/bootstrap.min.css" rel="stylesheet">
-    <!-- /css/bootstrap.min.css :está direcionando p/ pasta css que tá dentro do wwwroot -->
+    <!-- folha de estilos CSS do bootstrap -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+
+    <title>FinancasApp</title>
 </head>
 <body class="bg-secondary">
-    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
-        <div class="container">
-            <a class="navbar-brand text-light" href="#">FinancasApp</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="/Account/Login">
-                            Acessar sistema
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="/Account/Register">
-                            Criar conta de usuário
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="/Account/ForgotPassword">
-                            Esqueci minha senha
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
 
-    <!-- Área de conteudo do layout -->
-    @RenderBody()
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 offset-md-4">
+                <div class="card mt-5">
+                    <div class="card-body">
+                        <!-- conteúdo principal do layout -->
+                        @RenderBody()
+                    </div>
+                </div>
+                <div class="mt-3 text-white text-center">
+                    <div>
+                        <strong>Sistema de controle de finanças v1.0</strong>
+                    </div>
+                    <div>
+                        <small>Turma C# WebDeveloper 2023 - COTI Informática</small>
+                    </div>
+                </div>
+            </div>
+        </div>       
+    </div>
 
     <!-- biblioteca JS do bootstrap -->
     <script src="/js/bootstrap.bundle.min.js"></script>
-    <!-- /css/bootstrap.min.css :está direcionando p/ pasta js que tá dentro do wwwroot -->
-
 </body>
 </html>
